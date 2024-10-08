@@ -14,9 +14,5 @@ phases:
       - echo Compiling the node code 
   post_build:
     commands:
-      - echo Build completed on `date`
-
-  artifacts:
-  files:
-    - '**/*'  
+      - echo Build completed on `date` 
 
