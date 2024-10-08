@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /home/ubuntu/simple-nodejs-app
+cd /root
 pm2 delete server
 pm2 start server.js
