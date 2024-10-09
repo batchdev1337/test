@@ -16,3 +16,7 @@ phases:
     commands:
       - echo Build completed on `date` 
 
+artifacts:
+  files:
+    - '**/*' # Include all files in your project, adjust as needed
+  base-directory: . # Change if your output is in a specific directory
